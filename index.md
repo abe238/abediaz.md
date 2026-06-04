@@ -54,6 +54,20 @@ food, and technology ecosystems.
 
 ---
 
+## Building with AI
+
+A few things I've built by learning the tools the only way that sticks — shipping with them.
+
+- [AI PM Résumé Analyzer](https://github.com/abe238/aipm-resume-analyzer) — CLI that scores résumés against an AI product-management framework, running Claude Sonnet 4.5, GPT-5, and Gemini side by side.
+- [Deep Research Agent](https://github.com/abe238/gemini-deep-research) — an autonomous agent that plans, executes, and writes cited research reports from scratch.
+- [Project Kickoff](https://github.com/abe238/project-kickoff) — scaffolds production-ready projects with security best practices and LLM-assisted setup baked in.
+- [Agent Skills](https://github.com/abe238/community-skills) — an open, cross-tool collection of reusable agent skills I've built and curated for AI coding agents.
+- [Volatility-Driven Decay](https://github.com/abe238/volatility-driven-decay) — AI research: adaptive memory for RAG systems, with 42 reproducible experiments across 3 domains.
+
+And the page you're reading is built and deployed with my own [gg-deploy](https://github.com/abe238/gg-deploy) (domain → GitHub Pages in 60s, with an MCP interface).
+
+---
+
 ## Follow
 
 | Where | Handle |
