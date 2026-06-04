@@ -1,7 +1,6 @@
 # Abe Diaz
 
 > **Seattle / Tech / Evangelist**
-> Sr. Technical Program Manager — Disaster Relief by Amazon
 
 [LinkedIn](https://linkedin.com/in/abediaz) ·
 [Twitter / X](https://twitter.com/abe238) ·
@@ -18,7 +17,7 @@ meeting passionate and interesting people around the world.
 
 ![Abe Diaz](./images/profile.jpg)
 
-Sr. Technical Program Manager on the **Disaster Relief by Amazon** team. Born and
+Sr. Manager on the **Disaster Relief by Amazon** team. Born and
 raised in Puerto Rico; holds a BS in Computer Engineering from
 [UPR-Mayagüez](https://uprm.edu/) and an MS in Information Security from Lipscomb
 University.
