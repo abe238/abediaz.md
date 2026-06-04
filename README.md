@@ -8,9 +8,10 @@ Live at **https://abediaz.md**
 ## How it works
 
 - **`index.md`** is the single source of truth — the entire site is this one file.
-- **`build.js`** renders `index.md` into a styled `index.html` (light + dark
-  theme, GitHub-flavored Markdown look) and copies the raw `index.md` and
-  `images/` into `_site/`.
+- **`build.js`** wraps the raw `index.md` in a styled monospace "file viewer"
+  `index.html` (line numbers, file tab, light + dark theme) — the Markdown
+  *source* is the page — and copies the raw `index.md` and `images/` into `_site/`.
+  No dependencies; plain Node.
 - **GitHub Actions** (`.github/workflows/deploy.yml`) runs the build on every
   push to `main` and deploys `_site/` to GitHub Pages.
 
@@ -18,8 +19,8 @@ So one URL serves two things:
 
 | Request | You get |
 |---------|---------|
-| `https://abediaz.md/` | the rendered HTML page |
-| `https://abediaz.md/index.md` | the raw Markdown source |
+| `https://abediaz.md/` | the Markdown source in a styled file viewer |
+| `https://abediaz.md/index.md` | the plain raw Markdown file |
 
 > GitHub Pages is static and can't do `Accept`-header content negotiation, so the
 > two formats live at two paths (`/` and `/index.md`) rather than one. To serve

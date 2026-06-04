@@ -74,6 +74,6 @@ Best,
 
 ---
 
-<sub>© 2024 Abe Diaz. All rights reserved. · You're reading the **Markdown
+<sub>© 2026 Abe Diaz. All rights reserved. · You're reading the **Markdown
 edition** — the rendered web version lives at [abediaz.ai](https://abediaz.ai).
 Want the source? [View raw](./index.md).</sub>
